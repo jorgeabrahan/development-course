@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Microverse Portfolio ](#-microverse-portfolio-)
+- [📖 Development Course ](#-development-course-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -23,9 +23,9 @@
   - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
-# 📖 Microverse Portfolio <a name="about-project"></a>
+# 📖 Development Course <a name="about-project"></a>
 
-**Microverse Portfolio** is a template based personal portfolio project to show my work, professional skills and knowledge to others.
+**Development Course** is a project to teach others what I've learned through many years of studying web development and programming. My goal is that by teaching programming basics in the easiest way, everyone understands that they can learn web development and much more.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -34,8 +34,9 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
-    <li><a href="https://reactjs.org/">CSS</a></li>
+    <li><a href="https://www.w3schools.com/html/">html</a></li>
+    <li><a href="https://www.w3schools.com/css/">css</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/JavaScript_technologies_overview">JavaScript</a></li>
   </ul>
 </details>
 
@@ -55,15 +56,16 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Toolbar or header**
-- **Headline section**
+- **Optimized for mobile**
+- **Updated, quality content**
+- **Well designed and functional**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [https://jorgeabrahan.github.io/microverse_portfolio/](https://jorgeabrahan.github.io/microverse_portfolio/)
-- [video walkthrough](https://www.loom.com/share/a13cfb7e5af447908bf671eafd3e6cbe)
+- [https://jorgeabrahan.github.io/development_course/ (In progress)](https://jorgeabrahan.github.io/development_course/)
+- [Video walkthrough (In progress)](https://www.loom.com/share/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,30 +86,34 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-git clone https://github.com/jorgeabrahan/microverse_portfolio.git
+git clone https://github.com/jorgeabrahan/development_course.git
 ```
 
-Or download ZIP folder.
+Or download the ZIP folder.
 
 ### Install
 
 Once you've cloned the repository simply run:
 
 ```
-cd microverse_portfolio
+cd development_course
 ```
 
-And this should open the directory with all the files from the repository.
+And this should open the directory with all the files from the repository on the command line, to open it in your explorer if you're using windows you can run:
+
+```
+explorer .
+```
 
 ### Usage
 
-To run the project, if you are on the microverse_portfolio folder path you can execute the following command:
+To run the project, if you are on the development_course folder path on your terminal you can execute the following command:
 
 ```
 code .
 ```
 
-To open Visual Studio Code on the folder you're at.
+This will open Visual Studio Code on the folder you're at.
 
 ### Run tests
 
@@ -115,7 +121,7 @@ There are no tests configured for this project.
 
 ### Deployment
 
-You can deploy this project using GitHub pages if you're added as a collaborator in this repository
+You can deploy this project using GitHub pages by pushing changes to the main branch, of course you'll just be able to do this if you're added as a collaborator in this repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,10 +136,7 @@ You can deploy this project using GitHub pages if you're added as a collaborator
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[My recent works]**
-- [ ] **[About me]**
-- [ ] **[Skills and technologies]**
-- [ ] **[Contact information]**
+- [ ] **Accessibility functionalities**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,9 +164,13 @@ No acknowledgments needed so far.
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **Why a template?**
+- **What am I going to learn?**
 
-  - Even though the portfolio is a template-based project, we as Microverse students can give it our own touch; this is in fact a requirement. Also, we have many different options to choose from, and even if a lot of people use the same I will, all projects will be different based on our needs and requirements.
+  - Even though this course is mainly focused on web development, you'll learn programming in general and this will help you a lot, not just to create amazing websites, but also applications, games, and basically everything that involves coding. Keep in mind that we will cover JavaScript which is a worldwide used programming language, not just for web pages, but for multiple things like the mentioned before; even NASA used it recently, so even if you're interested in something else than web development this course will be useful for you.
+
+- **Which technologies will this course cover?**
+
+  - It'll cover basic web development technologies for frontend (html, css, and javascript), but also a javascript framework that is absolutely needed for bigger projects (react), and finally a backend language to work the server-side of your wepages (ruby). You will learn to use not only the necessary tools to create amazing websites but also all the processes needed (wireframes, mockups, deployment, client-server infrastructure, and much more) to get to the final product that users need.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
