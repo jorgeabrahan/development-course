@@ -1,0 +1,4 @@
+html {
+    --layout-max-width: 1240px;
+    --layout-inline-padding: 0.5rem;
+}

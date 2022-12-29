@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Web Development Course</title>
-        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/pages/homepage.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link 
@@ -18,23 +18,27 @@
         />
     </head>
     <body>
-        <header>
-            <button>
-                <span class="material-symbols-outlined">
-                    menu
-                </span>
-            </button>
-            <a href="">Logo</a>
-            <nav>
-                <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Program</a></li>
-                    <li><a href="">Join</a></li>
-                    <li><a href="">Sponsor</a></li>
-                    <li><a href="">News</a></li>
-                </ul>
-            </nav>
-            <a href="">CC Campaign</a>
+        <header class="header">
+            <div class="header__menu">
+                <button class="menu__button">
+                    <span class="menu__icon material-symbols-outlined">
+                        menu
+                    </span>
+                </button>
+                <nav class="menu__nav">
+                    <a class="menu__logo" href="./index.html">
+                        <img class="menu__logo-img" src="./img/logos/cc-global-logo.png" alt="CC Global Summit logo">
+                    </a>
+                    <div class="menu__links">
+                        <ul class="menu__list">
+                            <li><a class="menu__link menu__link--current" href="">Homepage</a></li>
+                            <li><a class="menu__link" href="">About</a></li>
+                            <li><a class="menu__link" href="">Program</a></li>
+                        </ul>
+                        <a class="menu__link menu__link--highlight" href="">CC Campaign</a>
+                    </div>
+                </nav>
+            </div>
         </header>
         <!-- headline -->
         <section>
