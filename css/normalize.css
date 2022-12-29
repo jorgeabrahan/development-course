@@ -106,6 +106,7 @@ button,
 [type="submit"] {
   appearance: button;
   -webkit-appearance: button;
+  cursor: pointer;
 }
 
 button::-moz-focus-inner,
@@ -121,6 +122,10 @@ button:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
+}
+
+button:active {
+  scale: 0.9;
 }
 
 fieldset {
