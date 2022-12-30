@@ -16,16 +16,17 @@
             rel="stylesheet" 
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" 
         />
+        <script src="./js/menu.js" defer></script>
     </head>
     <body>
         <header class="header">
             <div class="header__menu">
-                <button class="menu__button">
-                    <span class="menu__icon material-symbols-outlined">
+                <button class="menu__button" id="btnMenu">
+                    <span class="menu__icon material-symbols-outlined" id="iconMenu">
                         menu
                     </span>
                 </button>
-                <nav class="menu__nav menu__nav--translate">
+                <nav class="menu__nav menu__nav--translate" id="menu">
                     <a class="menu__logo" href="./index.html">
                         <img class="menu__logo-img" src="./img/logos/cc-global-logo.png" alt="CC Global Summit logo">
                     </a>
@@ -156,5 +157,4 @@
             <p>&copy; 2015 Creative Commons Korea Some Rights Reserved.</p>
         </footer>
     </body>
-    <script src="./js/app.js"></script>
 </html>
