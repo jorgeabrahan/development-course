@@ -15,7 +15,7 @@
     line-height: clamp(2rem, 5.6vw, 5rem);
     text-transform: uppercase;
     max-width: 500px;
-    margin-top: 0;
+    margin-bottom: 1rem;
 
     background-image: linear-gradient(#f3430dc9, #f3430dc9),
         url("../../img/headline/web-development-text-background.jpg");
@@ -38,6 +38,7 @@
 .headline__description {
     background-color: #f7f7f7;
     padding: 0.8rem;
+    margin-bottom: 1rem;
     border: 4px solid #fefefe;
     color: #5d5d5d;
     font-size: 1rem;
