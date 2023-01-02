@@ -1,6 +1,5 @@
 .speakers {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2rem;
     margin-bottom: 2rem;
 }
@@ -12,8 +11,8 @@
 }
 
 .speaker__image {
-    min-width: 130px;
-    max-width: 130px;
+    min-width: 100px;
+    max-width: 100px;
 }
 
 .speaker__name {
@@ -57,6 +56,17 @@
 
 .speakers__button span:first-child {
     text-transform: uppercase;
+}
+
+@media (min-width: 500px) {
+    .speaker__image {
+        min-width: 130px;
+        max-width: 130px;
+    }
+
+    .speakers {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
 }
 
 @media (max-width: 768px) {
