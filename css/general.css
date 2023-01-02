@@ -33,10 +33,46 @@ html {
     padding: .9rem var(--layout-inline-padding);
 }
 
+.title {
+    margin-bottom: 2rem;
+}
+
+.title h2 {
+    color: white;
+    font-weight: normal;
+    padding: 1rem 0;
+    text-align: center;    
+}
+
+.title hr {
+    width: 40px;
+    border-width: 1px;
+    border-color:#f3440d;
+    margin-inline: auto;
+}
+
+.clr-white {
+    color: white;
+}
+
 .clr-orange {
     color: var(--orange);
 }
 
 .bg-orange {
     background-color: var(--orange);
+}
+
+.clr-dark-gray {
+    color: #272a32;
+}
+
+.bg-dark-gray {
+    background-color: #272a32;
+}
+
+@media (min-width: 769px) {
+    .title h2 {
+        font-weight: bold;   
+    }
 }
