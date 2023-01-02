@@ -1,6 +1,7 @@
 .program {
     background-image: url("../../img/main/patter-bg.png");
     padding: 1.5rem 0;
+    margin-bottom: 5rem;
 }
 
 .program__sections {
