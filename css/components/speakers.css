@@ -55,6 +55,10 @@
     font-weight: 700;
 }
 
+.speakers__button span:first-child {
+    text-transform: uppercase;
+}
+
 @media (max-width: 768px) {
     .hide:last-child, .hide:nth-last-child(2) {
         display: none;

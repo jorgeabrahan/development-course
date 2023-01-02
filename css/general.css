@@ -70,6 +70,10 @@ html {
     background-color: #272a32;
 }
 
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
 @media (min-width: 769px) {
     .title h2 {
         font-weight: bold;   
