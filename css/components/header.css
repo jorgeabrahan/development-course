@@ -1,9 +1,3 @@
-.header__menu {
-    max-width: var(--layout-max-width);
-    margin-inline: auto;
-    padding: .9rem var(--layout-inline-padding);
-}
-
 .menu__button {
     display: flex;
     padding: 0;
