@@ -2,14 +2,6 @@
     box-shadow: 0 1px 3px #838383;
 }
 
-.logo__description {
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-    margin-bottom: 3rem;
-}
-
 .logo__image {
     box-shadow: 0 0 2px #838383;
     width: 100%;

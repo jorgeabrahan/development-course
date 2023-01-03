@@ -1,5 +1,5 @@
 .headline {
-  background-image: url("../../img/headline/headline-bg-mobile.png");
+  background-image: url("../../../img/headline/headline-bg-mobile.png");
   background-position: center top;
   background-size: 150%;
 }
@@ -7,7 +7,7 @@
 .headline__title {
   background-image:
     linear-gradient(#f3430dc9, #f3430dc9),
-    url("../../img/headline/web-development-text-background.jpg");
+    url("../../../img/headline/web-development-text-background.jpg");
   background-position: center center;
   background-size: contain;
   background-repeat: repeat;
@@ -46,7 +46,7 @@
 
 @media (min-width: 769px) {
   .headline {
-    background-image: url("../../img/headline/headline-bg-desktop.png");
+    background-image: url("../../../img/headline/headline-bg-desktop.png");
   }
 
   .headline__content {

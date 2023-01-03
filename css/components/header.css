@@ -107,6 +107,7 @@ span.menu__icon {
 
 @media (min-width: 769px) {
   .header {
+    z-index: 100;
     position: sticky;
     top: 0;
     left: 0;
