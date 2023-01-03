@@ -1,0 +1,92 @@
+.program {
+  background-image: url("../../img/main/patter-bg.png");
+  padding: 1.5rem 0;
+}
+
+.program__sections {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.program__section {
+  display: grid;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.program__section h3 {
+  text-align: center;
+}
+
+.program__section p {
+  font-size: 0.8rem;
+}
+
+.program__button {
+  display: block;
+  margin-inline: auto;
+  max-width: max-content;
+  padding: 1.5rem 2rem;
+  background-color: #f3440d;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .program .section {
+    padding-block: 0;
+  }
+
+  .program__section {
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .program__section h3 {
+    font-size: 1rem;
+    grid-column: span 2;
+  }
+
+  .program__section p {
+    grid-column: span 5;
+  }
+}
+
+@media (min-width: 769px) {
+  .program {
+    padding: 5rem 0;
+  }
+
+  .program > .title > h2 {
+    padding-top: 0;
+  }
+
+  .program__sections {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.2rem;
+    margin-bottom: 4rem;
+  }
+
+  .program__section {
+    align-content: flex-start;
+  }
+
+  .program__section img {
+    display: block;
+    margin: 1rem auto;
+  }
+
+  .program__section h3 {
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .program__section p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    text-align: center;
+  }
+}
