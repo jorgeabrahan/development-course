@@ -1,86 +1,89 @@
 @font-face {
-    font-family: VremenaBook;
-    src: url('../font_families/cocogoose/vremena-book.otf');
+  font-family: VremenaBook;
+  src: url('../font_families/cocogoose/vremena-book.otf');
 }
+
 @font-face {
-    font-family: VremenaBold;
-    src: url('../font_families/cocogoose/vremena-bold.otf');
+  font-family: VremenaBold;
+  src: url('../font_families/cocogoose/vremena-bold.otf');
 }
+
 @font-face {
-    font-family: VremenaMedium;
-    src: url('../font_families/cocogoose/vremena-medium.otf');
+  font-family: VremenaMedium;
+  src: url('../font_families/cocogoose/vremena-medium.otf');
 }
+
 @font-face {
-    font-family: VremenaRegular;
-    src: url('../font_families/cocogoose/vremena-regular.otf');
+  font-family: VremenaRegular;
+  src: url('../font_families/cocogoose/vremena-regular.otf');
 }
 
 body {
-    user-select: none;
-    scrollbar-gutter: stable;
-    font-family: "Lato", sans-serif;
+  user-select: none;
+  scrollbar-gutter: stable;
+  font-family: "Lato", sans-serif;
 }
 
 html {
-    --layout-max-width: 1240px;
-    --layout-inline-padding: 0.5rem;
-    --orange: #f0513c;
+  --layout-max-width: 1240px;
+  --layout-inline-padding: 0.5rem;
+  --orange: #f0513c;
 }
 
 .section {
-    max-width: var(--layout-max-width);
-    margin-inline: auto;
-    padding: .9rem var(--layout-inline-padding);
+  max-width: var(--layout-max-width);
+  margin-inline: auto;
+  padding: 0.9rem var(--layout-inline-padding);
 }
 
 .title {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .title h2 {
-    font-weight: normal;
-    padding: 1rem 0;
-    text-align: center;    
+  font-weight: normal;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 .title hr {
-    width: 40px;
-    border-width: 1px;
-    border-color:#f3440d;
-    background-color: #f3440d;
-    margin-inline: auto;
+  width: 40px;
+  border-width: 1px;
+  border-color: #f3440d;
+  background-color: #f3440d;
+  margin-inline: auto;
 }
 
 .clr-white {
-    color: white;
+  color: white;
 }
 
 .clr-orange {
-    color: var(--orange);
+  color: var(--orange);
 }
 
 .bg-orange {
-    background-color: var(--orange);
+  background-color: var(--orange);
 }
 
 .clr-dark-gray {
-    color: #272a32;
+  color: #272a32;
 }
 
 .bg-dark-gray {
-    background-color: #272a32;
+  background-color: #272a32;
 }
 
 .rotate-180 {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .mb-5rem {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 @media (min-width: 769px) {
-    .title h2 {
-        font-weight: bold;   
-    }
+  .title h2 {
+    font-weight: bold;
+  }
 }

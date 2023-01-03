@@ -1,23 +1,23 @@
 .partners {
-    padding: 3rem 0;
+  padding: 3rem 0;
 }
 
 .partners__images {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    padding-block: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-block: 0;
 }
 
-
 @media (max-width: 768px) {
-    .partners__images {
-        justify-content: center;
-        gap: 1rem;
-    }
-    .partners__images img {
-        width: 130px;
-    }
+  .partners__images {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .partners__images img {
+    width: 130px;
+  }
 }
