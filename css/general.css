@@ -74,6 +74,14 @@ html {
   background-color: #272a32;
 }
 
+.clr-gray-secondary {
+  color: #7a7a7a;
+}
+
+.bg-gray-secondary {
+  background-color: #7a7a7a;
+}
+
 .rotate-180 {
   transform: rotate(180deg);
 }

@@ -1,6 +1,7 @@
 @import url("../general.css");
 @import url("../normalize.css");
 @import url("../components/header.css");
+@import url("../components/common/headline.css");
 @import url("../components/homepage/headline.css");
 @import url("../components/homepage/program.css");
 @import url("../components/homepage/speakers.css");

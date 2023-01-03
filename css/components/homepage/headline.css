@@ -4,20 +4,7 @@
   background-size: 150%;
 }
 
-.headline__content {
-  padding-top: 7rem;
-}
-
 .headline__title {
-  font-family: VremenaBold, sans-serif;
-  font-weight: 900;
-  /* stylelint-disable */
-  font-size: clamp(2rem, 5.6vw, 5rem);
-  line-height: clamp(2rem, 5.6vw, 5rem);
-  /* stylelint-enable */
-  text-transform: uppercase;
-  max-width: 500px;
-  margin-bottom: 1rem;
   background-image:
     linear-gradient(#f3430dc9, #f3430dc9),
     url("../../img/headline/web-development-text-background.jpg");
@@ -29,16 +16,6 @@
   /* stylelint-enable */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.headline__subtitle {
-  /* stylelint-disable */
-  font-size: clamp(1.4rem, 4.5vw, 2.5rem);
-  line-height: clamp(1.4rem, 4.5vw, 2.5rem);
-  /* stylelint-enable */
-  font-weight: 500;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
 }
 
 .headline__description {
@@ -78,11 +55,7 @@
 
   .headline__title {
     max-width: 73%;
-  }
-
-  .headline__subtitle {
-    margin-bottom: 1rem;
-  }
+}
 
   .headline__description {
     font-weight: 700;
