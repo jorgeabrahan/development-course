@@ -158,7 +158,7 @@ If you like this project you can just cheer me up with a comment 🙂!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Original design idea by Cindy Shin in Behance.
+Original design idea by <a href="https://www.behance.net/adagio07">https://docs.google.com/document/d/11x_mH-Rn4g_wZsshvxjqresjGOqMeF3IcmsBpBnOqQE/edit?usp=sharing</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
