@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Web Development Course</title>
+        <title>webdev - homepage</title>
         <link rel="stylesheet" href="./css/pages/homepage.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +16,8 @@
             rel="stylesheet" 
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" 
         />
-        <script src="./js/menu.js" defer></script>
+        <link rel="icon" href="./icons/webdev.svg">
+        <script src="./js/menu.js" defer></script>  
         <script src="./js/speakers.js" defer></script>
     </head>
     <body>
@@ -29,15 +30,14 @@
                 </button>
                 <nav class="menu__nav menu__nav--translate" id="menu">
                     <a class="menu__logo" href="./index.html">
-                        <img class="menu__logo-img" src="./img/logos/cc-global-logo.png" alt="CC Global Summit logo">
+                        <img class="menu__logo-img" src="./img/logos/webdev.png" alt="WebDev logo">
                     </a>
                     <div class="menu__links">
                         <ul class="menu__list">
-                            <li><a class="menu__link menu__link--current" href="">Homepage</a></li>
-                            <li><a class="menu__link" href="">About</a></li>
-                            <li><a class="menu__link" href="">Program</a></li>
+                            <li><a class="menu__link menu__link--current" href="./index.html">Homepage</a></li>
+                            <li><a class="menu__link" href="./about.html">About</a></li>
                         </ul>
-                        <a class="menu__link menu__link--highlight" href="">CC Campaign</a>
+                        <a class="menu__link menu__link--highlight" href="mailto:jorge24abrahan@gmail.com?subject=webdev%20fullstack%20development%20course%20enrollment&body=Hi%20Jorge!%0D%0AMy%20name%20is%20%3Cname%3E%2C%20I'm%20%3Cage%3E%20years%20old%20and%20I%20have%20a%20deep%20interest%20in%20learning%20web%20development%2C%20that's%20why%20I%20want%20to%20enroll%20in%20the%20course.%20Please%20let%20me%20know%20as%20soon%20as%20possible%20all%20the%20requirements%2C%20I'll%20be%20waiting%20for%20your%20answer.%0D%0A%0D%0AAttentively%20%3Cname%3E" target="_blank">Enroll course</a>
                     </div>
                 </nav>
             </div>
@@ -46,62 +46,62 @@
         <section class="headline">
             <!-- title -->
             <div class="headline__content section">
-                <h2 class="headline__subtitle clr-orange">"Hello, Sharing world!"</h2>
-                <h1 class="headline__title">Creative commons global summit 2015</h1>
+                <h2 class="headline__subtitle clr-orange">`Hello world and ${user}!`</h2>
+                <h1 class="headline__title">Fullstack web developer course</h1>
                 <!-- description -->
                 <p class="headline__description">
-                    A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.
+                    Become a fullstack web developer, UI & UX designer, and teamwork professional with our course. Understand programming from it's very core and become a great software developer.
                 </p>
                 <!-- date -->
                 <div>
                     <p class="headline__date">
-                        <strong>2015.10.15(THU) ~ 16(FRI)</strong>
+                        <strong>2023.02.01(WED) ~ 10.31(TUE)</strong>
                     </p>
-                    <p class="headline__location">@ National Museum of Korea, Art Center Nabi and more</p>
+                    <p class="headline__location">@ Zoom conferences, Pre Recorded videos and Dashboard activities</p>
                 </div>
             </div>
         </section>
         <main>
             <!-- main program -->
-            <section class="bg-dark-gray program mb-5rem">
+            <section class="bg-dark-gray program mb-5rem" id="program-benefits">
                 <div class="title">
-                    <h2 class="clr-white">Main Program</h2>
+                    <h2 class="clr-white">Program benefits</h2>
                     <hr>
                 </div>
                 <!-- program sections -->
                 <div class="program__sections section">
                     <div class="program__section">
                         <img src="./icons/podium.png" alt="Podium icon">
-                        <h3 class="clr-orange">Lecture</h3>
-                        <p class="clr-white">Listen to the speakers from various contries about the messages of sharing and opening.</p>
+                        <h3 class="clr-orange">Lectures</h3>
+                        <p class="clr-white">Listen to our mentors from various countries and learn from their experience and knowledge.</p>
                     </div>
                     <div class="program__section">
                         <img src="./icons/board.png" alt="Noticeboard icon">
-                        <h3 class="clr-orange">CC Exhibition</h3>
-                        <p class="clr-white">Appreciate various creations applying CC license of artists, organized from Art Center Nabi.</p>
+                        <h3 class="clr-orange">Exhibitions</h3>
+                        <p class="clr-white">Learn from the projects our mentors have made for the companies they've worked for.</p>
                     </div>
                     <div class="program__section">
                         <img src="./icons/forum.png" alt="Forum icon">
                         <h3 class="clr-orange">Forum</h3>
-                        <p class="clr-white">Have the time to share your thoughts and opinions with experts for each topic.</p>
+                        <p class="clr-white">Ask as many questions as you wish and our experts will help you clear your doubts.</p>
                     </div>
                     <div class="program__section">
                         <img src="./icons/develop.png" alt="Develop icon">
                         <h3 class="clr-orange">Workshop</h3>
-                        <p class="clr-white">Try creating your own work using open source license rather than just watching at it.</p>
+                        <p class="clr-white">Put your knowledge into practice with the interactive activities we've prepared for you.</p>
                     </div>
                     <div class="program__section">
                         <img src="./icons/affiliate.png" alt="Affiliate icon">
-                        <h3 class="clr-orange">CC Ignite</h3>
-                        <p class="clr-white">Get opportunities to network with CC affiliates around the world, also after the summit.</p>
+                        <h3 class="clr-orange">Comunity</h3>
+                        <p class="clr-white">Interact with our student community to share your ideas and opinions with others.</p>
                     </div>
                 </div>
-                <a class="program__button" href="">Join CC Global Summit 2015</a>
+                <a class="program__button" href="mailto:jorge24abrahan@gmail.com?subject=webdev%20fullstack%20development%20course%20enrollment&body=Hi%20Jorge!%0D%0AMy%20name%20is%20%3Cname%3E%2C%20I'm%20%3Cage%3E%20years%20old%20and%20I%20have%20a%20deep%20interest%20in%20learning%20web%20development%2C%20that's%20why%20I%20want%20to%20enroll%20in%20the%20course.%20Please%20let%20me%20know%20as%20soon%20as%20possible%20all%20the%20requirements%2C%20I'll%20be%20waiting%20for%20your%20answer.%0D%0A%0D%0AAttentively%20%3Cname%3E" target="_blank">Enroll course</a>
             </section>
             <!-- featured speakers -->
             <section class="section mb-5rem">
                 <div class="title">
-                    <h2>Featured Speakers</h2>
+                    <h2>Meet our mentors</h2>
                     <hr>
                 </div>
                 <!-- speakers -->
@@ -132,11 +132,13 @@
         <footer class="footer">
             <div class="section footer__content">
                 <a class="" href="./index.html">
-                    <img class="footer__logo" src="./img/logos/footer-logo.png" alt="CC Global Summit logo">
+                    <img class="footer__logo" src="./img/logos/webdev.png" alt="WebDev logo">
                 </a>
                 <div>
-                    <p class="footer__description">&copy; 2015 Creative Commons Korea Some Rights Reserved.</p>
-                    <p class="footer__extra">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora ea molestias quia officiis illo quis quaerat quas dolore! Impedit, deleniti.</p>
+                    <p class="footer__description">&copy; JorgeSA FullStack Web Developer Course</p>
+                    <p class="footer__extra">
+                        This website is a template-based microverse capstone project, the original design idea was created by <a href="https://www.behance.net/adagio07" target="_blank">Cindy Shin in Behance</a>; according to the <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons license of the design</a> all credits go to her, and none of this material will be used for commercial purposes
+                    </p>
                 </div>
             </div>
         </footer>

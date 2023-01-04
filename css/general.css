@@ -41,7 +41,7 @@ html {
 }
 
 .title h2 {
-  font-weight: normal;
+  font-weight: bold;
   padding: 1rem 0;
   text-align: center;
 }
@@ -52,6 +52,14 @@ html {
   border-color: #f3440d;
   background-color: #f3440d;
   margin-inline: auto;
+}
+
+.description {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .clr-white {
@@ -74,16 +82,26 @@ html {
   background-color: #272a32;
 }
 
+.clr-gray-secondary {
+  color: #7a7a7a;
+}
+
+.bg-gray-secondary {
+  background-color: #7a7a7a;
+}
+
+.clr-silver {
+  color: #838383;
+}
+
+.bg-silver {
+  background-color: #838383;
+}
+
 .rotate-180 {
   transform: rotate(180deg);
 }
 
 .mb-5rem {
   margin-bottom: 5rem;
-}
-
-@media (min-width: 769px) {
-  .title h2 {
-    font-weight: bold;
-  }
 }
