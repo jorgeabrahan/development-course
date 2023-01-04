@@ -65,7 +65,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [https://jorgeabrahan.github.io/development_course/](https://jorgeabrahan.github.io/development_course/)
-- [Video walkthrough (In progress)](https://www.loom.com/share/)
+- [Video walkthrough](https://www.loom.com/share/095a5ecc31954fb3bca4f282f2666c19)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
