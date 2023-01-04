@@ -1,58 +1,58 @@
 .conferences {
-    padding-block: 5rem;
+  padding-block: 5rem;
 }
 
 .conferences-grid {
-    display: grid;
-    gap: 1.5rem;
+  display: grid;
+  gap: 1.5rem;
 }
 
 .conference {
-    position: relative;
-    max-height: 300px;
-    min-height: 300px;
+  position: relative;
+  max-height: 300px;
+  min-height: 300px;
 }
 
 .conference__image {
-    max-height: 300px;
-    min-height: 300px;
-    width: 100%;
-    object-fit: cover;
+  max-height: 300px;
+  min-height: 300px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .conference__content {
-    position: absolute;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #ac402dcf;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.8rem;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ac402dcf;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 .conference__title {
-    font-size: 2.5rem;
-    font-weight: 900;
+  font-size: 2.5rem;
+  font-weight: 900;
 }
 
 .conference__subtitle {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 769px) {
-    .conferences-grid {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
+  .conferences-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 }
 
 @media (min-width: 1024px) {
-    .conferences-grid {
-        margin-inline: 1.5rem;
-    }
+  .conferences-grid {
+    margin-inline: 1.5rem;
+  }
 }
