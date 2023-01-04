@@ -159,6 +159,7 @@ If you like this project you can just cheer me up with a comment 🙂!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 Original design idea by <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a>.
+You can also take a look at the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">template design</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
