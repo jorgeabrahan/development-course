@@ -64,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [https://jorgeabrahan.github.io/development_course/ (In progress)](https://jorgeabrahan.github.io/development_course/)
+- [https://jorgeabrahan.github.io/development_course/](https://jorgeabrahan.github.io/development_course/)
 - [Video walkthrough (In progress)](https://www.loom.com/share/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -176,6 +176,6 @@ Original design idea by <a href="https://www.behance.net/adagio07">https://docs.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
