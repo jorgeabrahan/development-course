@@ -64,8 +64,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [https://jorgeabrahan.github.io/development_course/ (In progress)](https://jorgeabrahan.github.io/development_course/)
-- [Video walkthrough (In progress)](https://www.loom.com/share/)
+- [https://jorgeabrahan.github.io/development_course/](https://jorgeabrahan.github.io/development_course/)
+- [Video walkthrough](https://www.loom.com/share/095a5ecc31954fb3bca4f282f2666c19)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,7 +158,8 @@ If you like this project you can just cheer me up with a comment 🙂!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Original design idea by Cindy Shin in Behance.
+Original design idea by <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a>.
+You can also take a look at the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">template design</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,6 +177,6 @@ Original design idea by Cindy Shin in Behance.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
